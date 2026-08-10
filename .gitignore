@@ -1,0 +1,42 @@
+# Virtual environments
+venv/
+.venv/
+env/
+backend/venv/
+**/venv/
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Python caching & build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Databases
+*.sqlite3
+db.sqlite3
+
+# Environments
+.env
+.env.*
+!.env.example
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+
+**/migrations/*
+!**/migrations/__init__.py  
