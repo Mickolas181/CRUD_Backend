@@ -33,8 +33,7 @@ DEBUG = env.bool('DEBUG', default=False)
 ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=[])
 
 
-# Application definition
-
+# Application definitionqqq
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
